@@ -76,3 +76,6 @@ The accuracy score for the algorithm is the best at 93%
 
 The high_risk F1 for the algorithm was 15% mostly due to the very low precision. The F1 score for low_risk is very goot at 93%.
 
+### Summmary
+
+I do not recommend any of the models due to relatively low accuracies for predicting credit risk. Even though the EasyEnsembleClassifier has an accuracy of 93%, I don't think it is accurate enough for predicting credit risk. If the model would be used then out of 100 loans, 7 could be inaccuarate labeled by the model and if the company is handling large quantities of loans, it could cost the company millions. 
